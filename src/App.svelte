@@ -39,7 +39,9 @@
     $: console.log(quiz)
 </script>
 <h1>Quiz</h1>
-<CreateQuizPage/>
+<div class="flex justify-center w-full">
+    <CreateQuizPage/>
+</div>
 
 {#if currentQuestion}
 <h2>Question:</h2>
