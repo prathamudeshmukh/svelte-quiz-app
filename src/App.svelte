@@ -1,6 +1,6 @@
 <script>
     import {quizStore} from "./store.js";
-    import CreateQuizPage from "./CreateQuizPage.svelte";
+    import CreateQuizPage from "./components/CreateQuizPage.svelte";
 
     let current = 0;
     let answer;
@@ -40,7 +40,7 @@
 </script>
 <h1>Quiz</h1>
 <div class="flex justify-center w-full">
-    <CreateQuizPage/>
+    <CreateQuizPage />
 </div>
 
 {#if currentQuestion}
